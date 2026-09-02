@@ -7,7 +7,7 @@
     <title>Formulários</title>
 </head>
 <body>
-    <h1>Formulários de cadastro</h1>
+    <h3>Formulários de cadastro</h3>
     <main>
         <form>
             <label for="nome">Nome:</label><br>
@@ -33,7 +33,7 @@
                 <option value="outro">Outro</option>
             </select>
             <br><br>
-            <h1>Formulário de Login</h1>
+            <h3>Formulário de Login</h3>
             <label for="email">Email:</label><br>
             <input type="email" id="email" name="email" placeholder="digite seu email aqui">
             <br>
@@ -41,7 +41,7 @@
             <input type="password" id="senha" name="senha"><br>
             <input type="submit" value="Entrar">
             <br><br>
-            <h1>Formulário de Pesquisa</h1>
+            <h3>Formulário de Pesquisa</h3>
             <br>
             <label for="email">Buscar Produto</label>
             <input type="email" id="email" name="email">
@@ -53,11 +53,35 @@
                 <label for="range">Nivel</label>
                 <input type="range" id="range" name="range" min="0" max="1000">
                 <br><br>
-            <h1>Campos de Escolha</h1>
-            <label for="escolha">Escolha uma opção:</label><br>
-            <input type="radio" id="opcao1" name="escolha" value="opcao1">
-            <label for="opcao1">Opção 1</label><br>    
-            <h1>Formulário de Contato</h1>
+
+            <h3>Campos de Escolha</h3>
+            <label for="escolha">Quais linguagens Você Conhece (Pode marcar mais de uma opção)</label><br>
+            <input type="checkbox" id="opcao1" name="escolha" value="HTML">
+            <label for="opcao1">HTML</label><br>
+
+            <input type="checkbox" id="opcao2" name="escolha" value="CSS">
+            <label for="opcao2">CSS</label><br>
+            <input type="checkbox" id="JS" name="escolha" value="JavaScript">
+            <label for="opcao3">JavaScript</label><br>
+
+            <h3>Qual o Seu Nivel</h3>
+            <input type="radio" id="iniciante" name="nivel" value="iniciante">
+            <label for="iniciante">Iniciante</label>
+            <input type="radio" id="intermediario" name="nivel" value="intermediario">
+            <label for="intermediario">Intermediário</label>
+            
+            <input type="radio" id="Avançado" name="nivel" value="Avançado">
+            <label for="Avançado">Avançado</label><br>
+
+            <h3>Escolha seu Curso</h3>
+            <label for="curso">Curso:</label>
+            <select id="curso" name="curso">
+                <option value="">Front-End</option>
+                <option value="">Back-End</option>
+                <option value="">Full-Stack</option>
+            </select>
+            <h3>Formulário de Contato</h3>
+
             <label for="mensagem">Mensagem:</label>
             <br>
             <textarea id="mensagem" name="mensagem" 

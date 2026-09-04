@@ -1,0 +1,126 @@
+#titulo{
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(96, 96, 209);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+spam{
+    color: red;
+}
+
+/* p{
+    color: black;
+    font-weight: bolder;
+    font-size: 16px;
+
+} */
+
+.cor{
+    color: blue;
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+.tamanho{
+    font-size: 20px;
+    color: green;
+}
+
+.formato{
+    font-style: italic;
+    text-decoration: underline;
+}
+
+/* Inicio Background */
+
+.cor-fundo{
+    background-color: rgb(129, 182, 185);
+    color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.item-01{
+    color: white;
+}
+
+.item-02{
+    color: white;
+}
+
+.imagem-fundo{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNMWrmrgZIOwZXICExTGnC7wtMUZE2WVC-ostDJ-tO3A&s=10");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* padding: 60px 30px; */
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    color:crimson;
+    
+}
+
+.imagem-fundo-remota{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWynZd0kV35JusHquNp5cVWsk6-6_HkWXb4WdKuSgfpw&s=10");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* padding: 60px 30px; */
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+
+p{
+    text-align: center;
+}
+
+.imagem-fundo-local{
+    background-image: url("/ONG-Patas-Amigas/images/sobre.jpg");
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: center;
+    padding: 60px 30px;
+    margin: 100px 10px 0px 50px;
+    border: 1px solid black;
+    /*width: 100%;
+    height: 250px;
+    border-radius: 150px 10px 150px 25px;*/
+
+}
+
+/* Inicio BOX MODEL - CSS */
+
+.caixa{
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: rgb(129, 182, 185);
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.bloco{
+    background-color: rgba(70, 10, 11, 0.342);
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+    color: hwb(0 9% 61% / 0.603);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}

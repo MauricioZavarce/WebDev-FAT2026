@@ -1,0 +1,63 @@
+h1 {
+    color: rgb(134, 117, 85);
+    border-radius: 5px;
+    border: dashed 1px whitesmoke;
+    width: 58%;
+
+}
+
+p{
+    border: 1px black solid;
+    color: orange;
+}
+
+/* 
+    <tag>
+    class=""
+    id = ""
+*/
+
+#caixa-1{
+    width: 88%;
+    border: dashed 1px blueviolet;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.caixa-titulo{
+    color:brown;
+}
+
+.caixa-paragrafo{
+    border: none;
+    color: blue;
+}
+
+.caixa-imagem{
+    width: 80%;
+    height: 300px;
+    border-radius: 100%;
+}
+
+.caixa-button{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 15px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: all 0.5s;
+}
+
+.caixa-button:houver{
+    background-color: aqua;
+    padding: 15px 30px;
+    transform: scale(1.0s);
+}
+
+.caixa-button:active{
+    transform: scale(0.95);
+}

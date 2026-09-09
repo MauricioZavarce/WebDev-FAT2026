@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" 
     content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./form.css" />
     <title>Formulários</title>
 </head>
 <body>
     <h3>Formulários de cadastro</h3>
     <main>
-        <form>
+        <form class="form">
             <label for="nome">Nome:</label><br>
             <input type="text" id="nome" name="nome">
             <br>
@@ -33,25 +34,30 @@
                 <option value="outro">Outro</option>
             </select>
             <br><br>
-            <h3>Formulário de Login</h3>
+            <form class="form">
+                <h3>Formulário de Login</h3>
             <label for="email">Email:</label><br>
             <input type="email" id="email" name="email" placeholder="digite seu email aqui">
             <br>
             <label for="senha">Senha:</label><br>
             <input type="password" id="senha" name="senha"><br>
             <input type="submit" value="Entrar">
+            </form>
             <br><br>
-            <h3>Formulário de Pesquisa</h3>
+            <form class="form-pesquisa">
+                <h3>Formulário de Pesquisa</h3>
             <br>
-            <label for="email">Buscar Produto</label>
-            <input type="email" id="email" name="email">
-            <button type="submit">Pesquisar</button>
-            <br><br>
-                <label for="color">Cor Favorita</label>
+            <label for="email">Buscar Produto:</label>
+            <input type="email" id="email" name="email"><br>
+            <button type="submit">Pesquisar</button><br><br>
+            <label for="color">Cor Favorita</label>
                 <input type="color" id="color" name="color">
 
                 <label for="range">Nivel</label>
                 <input type="range" id="range" name="range" min="0" max="1000">
+            </form>
+            <br><br>
+                
                 <br><br>
 
             <h3>Campos de Escolha</h3>

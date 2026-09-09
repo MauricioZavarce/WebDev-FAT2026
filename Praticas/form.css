@@ -1,0 +1,81 @@
+.form{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    display: block;
+    margin-top: 12px;
+}
+
+.form label{
+    font-weight: bold;
+    display: blocks;
+    margin-top: 32px;
+
+}
+
+.form input{
+    width: 95%;
+    padding: 5px;
+}
+
+.form input:focus{
+    border-color:chocolate;
+    border-width: 5px;
+
+}
+
+.form input[type="submit"] {
+    background-color: black;
+    width: 30%;
+    margin: 10px;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    cursor:pointer;
+    transition: all 0.3s;
+
+}
+
+.form input[type="submit"]:hover{
+    background-color: aquamarine;
+    transform: scale(1.0s);
+}
+
+
+
+.form-pesquisa label{
+    font-family: italic;
+    font-weight: 600;
+    font-size: 22px;
+    text-decoration:overline;
+
+}
+
+
+
+.form-pesquisa input{
+    width: 75%;
+    padding: 8px 2px;
+    margin: 0px 0px;
+    border: white 1px solid;
+    border-radius: 5px;
+}
+
+.form-pesquisa input:focus{
+    outline: none;
+}
+
+.form-pesquisa button{
+    padding: 12px 20px;
+    margin: 10px 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    transition: all 0.5s;
+}
+
+
+
+body{
+    background-color: blueviolet;
+}

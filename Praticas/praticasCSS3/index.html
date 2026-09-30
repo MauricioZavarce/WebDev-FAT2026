@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento CSS</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+        <h2>1. Static</h2>
+        <div class="moldura">
+            <div class="caixa">Caixa 01</div>
+            <div class="caixa">Caixa 02</div>             
+        </div>
+
+        <h2>2. Relative</h2>
+        <div class="moldura moldura-rel">
+            <div class="caixa">Normal</div>
+            <div class="caixa caixa-relativa">Canto!</div>
+            <div class="caixa">Normal</div>
+        </div>
+
+        <h2>3. Absolute</h2>
+        <div class="moldura moldura-rel">
+            <div class="caixa">Normal</div>
+            <div class="caixa caixa-relativa">Canto!</div>
+            <div class="caixa">Normal</div>
+        </div>
+
+        <h2>4. Fixed</h2>
+        <div class="caixa destaque caixa-fixa">
+            Fixado
+        </div>
+
+        <h2>5. Z-index</h2>
+        <div class="moldura moldura-z">
+            <div class="zcaixa z1">z-index 1</div>
+            <div class="zcaixa z2">z-index 2</div>
+        </div>
+
+        
+    
+</body>
+</html>

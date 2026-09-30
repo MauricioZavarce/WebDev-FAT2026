@@ -1,0 +1,32 @@
+.flex{
+    display: flex;
+    gap: 10px;
+    background-color:aliceblue;
+    border: dashed 2px blueviolet;
+    border-radius: 8px;
+    padding: 12px;
+    min-height: 80px;
+}
+
+.caixaf{
+    background-color: aqua;
+    color: aliceblue;
+    padding: 18px;
+    border-radius: 8px;
+    font-weight: 8px;
+    text-align: center;
+    list-style: circle;
+
+}
+
+.f-centro{
+    justify-content: center;
+}
+
+.f-espaco{
+    justify-content: space-between;
+}
+
+.f-espaco-ao-redor{
+    
+}

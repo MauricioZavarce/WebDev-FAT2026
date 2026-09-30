@@ -1,141 +1,193 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Padaria do Sr. José</title>
-</head>
-<body>
-    <div>
-    <header>
-        <!-- Cabeçalho do site -->
-    <img
-    src="./images/logo.png" 
-    alt="Logo image" 
-    width="70" height="50"
-    >
-    <nav>
-        <ul>
-            <li> <a href="#sobre">Sobre</a> </li>
-            <li> <a href="#produto">Produto</a> </li>
-            <li> <a href="contato.html">Contato</a> </li>
-            <li> <a href="#diferenciais">Diferenciais</a> </li>
-            <li> <a href="pedidos.html">Faça seu Pedidos</a> </li>
-            <li> <a href="feedback.html">Feedback</a></li>
-        </ul>
-    </nav>
-    </header>
-    </div>
-    <main>
-        <section id="sobre">
-            <h2>Sobre nós</h2>
-            <img src="./images/female_baker.jpg" alt="Sobre nós" width="650" height="400">
-            <p>O que é Lorem Ipsum?
-Lorem Ipsum é simplesmente um texto fictício da indústria tipográfica e de impressão. Lorem Ipsum tem sido o texto fictício padrão da indústria desde 1966, quando os designers da Letraset e James Mosley, o bibliotecário da St Bride Printing Library em Londres, pegaram uma tradução de Cícero de 1914 e a embaralharam para criar um texto fictício para as folhas de tipos da Letraset. Ele sobreviveu não apenas a muitas décadas, mas também à transição para a editoração eletrônica, permanecendo essencialmente inalterado. Foi popularizado graças a essas folhas e, mais recentemente, com softwares de editoração eletrônica como o Aldus PageMaker e o Microsoft Word, que incluíam versões de Lorem Ipsum.</p>
-        </section>
-        <section id="produto">
-            <h2>Nossos Produtos</h2>
-        <!-- <ul>
+<html lang="pt-br" >
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <title>Padaria do Sr. José</title>
+        <link rel="stylesheet" href="./css/style.css"/>
+    </head>
 
-            <li> 🍞Pão Francês </li>
-            <li> 🍮Bolo de fubá </li>
-            <li> 🍥Sonho de Creme </li>
-            <li> 🍰Bolo de Morango </li>
-        </ul>-->
-        <img src="./images/1.png" alt="padaria" width="150">
-        <img src="./images/2.png" alt="padaria" width="150">
-        <img src="./images/3.png" alt="padaria" width="150">
-        <img src="./images/4.png" alt="padaria" width="150">    
-        <table border="1">
-                <thead>
-                    <tr>
-                    <th>Categoria</th>
-                    <th>Produto</th>
-                    <th>Descrição</th>
-                    <th>Preço</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                    <td>Pães</td>
-                    <td>Pão Francês</td>
-                    <td>Pães fresquinhos, croquantes e no ponto</td>
-                    <td>R$ 0,80</td>
-                    </tr>
-                    <tr>
-                    <td>Pães</td>
-                    <td>Croissant</td>
-                    <td> Croissant fresquinho, tradicional e Recheado</td>
-                    <td>R$ 2,50</td>
-                    </tr>
-                    <tr>
-                    <td>Doce</td>
-                    <td>Torta de Morango</td>
-                    <td>Deliciosa Torta de Morango, feito com Amor e carinho</td>
-                    <td>R$ 7,50</td>
-                    </tr>
-                    <tr>
-                    <td>Bolos</td>
-                    <td>Bolo de Chocolate</td>
-                    <td>Delicioso Bolo de chocolate, com recheio, e morangos</td>
-                    <td>R$ 5,00</td>
-                    </tr>
-                    <tr>
-                    <td>Salgados</td>
-                    <td>Pastel</td>
-                    <td>Pastel de varios sabores, fresco, Frito na Hora</td>
-                    <td>R$ 8,99</td>
-                    </tr>
-                    <tr>
-                    <td>Salgados</td>
-                    <td>Coxinha</td>
-                    <td>Coxinha deliciosa, crocante por fora e cremosa por dentro</td>
-                    <td>R$ 3,00</td>
-                    </tr>
-                    <tr>
-                    <td>Salgados</td>
-                    <td>Esfiha</td>
-                    <td>Tracional Esfiha , com varios sabores para saborear</td>
-                    <td>R$ 1,99</td>
-                    </tr>
-                </tbody>
-            </table>
+    <body>
+        <div class="topo-aviso">
+            Assado fresquinho toda manhã. 
+            <a href="pedidos.html" class="topo-aviso-clicavel">
+                Faça seu pedido pelo site!
+            </a>
+        </div>
+        <header class="cabecalho">
+            <a href="index.html">
+                <img 
+                class="logo"
+                src="./image/logo.jpg" 
+                alt="Logo da empresa" 
+                width="50" 
+                height="50"/>
+            </a>
+            
+            <nav>
+                <menu class="menu">
+                    <li> <a href="index.html">Início</a> </li>
+                    <li> <a href="#sobre">Sobre</a> </li>
+                    <li> <a href="#produto">Produto</a> </li>
+                    <li> <a href="contato.html">Contato</a> </li>
+                    <li> <a href="feedback.html">Feedback</a> </li>
+                </menu>
+            </nav>
+        </header>
 
-        <h3>Destaque da casa</h3>
-        <p>
-            Nosso bolo de fubá é o preferido da clientela, Feito com fubá de milho, leite e ovos, perfeito para acompanhar o café da manhã ou lanche da tarde.
-        </p>      
+        
+
+        <main>
+            <section class="banner">
+            <div class="banner-texto">
+                <h1>Feito Fresco. <br/> Feito para adoçar <br> seus momentos.</h1>
+                <p>
+                    Descubra o prazer de pães artesanais, doces e bolos feitos toda manhã
+                    com ingredientes premium e muito carinho.
+                </p>
+                <div class="banner-btn">
+                    <a href="pedidos.html" class="banner-btn-principal">Fazer Pedido</a>
+                    <a href="#produto" class="banner-btn-secundario">Ver Produtos</a>
+                </div> 
+            </div>
+
+            <div>
+                <img 
+                class="banner-img"
+                src="./image/mesa-bolo-pães.jpg" 
+                alt="mesa com bolos, pães, 
+                doces e salgados"
+                />
+            </div>
         </section>
-        <section id="diferenciais">
-            <h2>Nossos Diferenciais</h2>
+            <!-- <section id="sobre">
+                <h2>Sobre nós</h2>
+                <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/BVY_yumzGYI?si=bZVZs-h-JPHEZVTW&amp;controls=0" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; 
+                autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>
+                    Contrary to popular belief, Lorem Ipsum is not 
+                    simply random text. It has roots in a piece of 
+                    classical Latin literature from 45 BC, making it 
+                    over 2000 years old. Richard McClintock, a Latin 
+                    professor at Hampden-Sydney College in Virginia.
+                </p>
+                <p>
+                     
+                    Looked up one of the more obscure Latin words, 
+                    consectetur, from a Lorem Ipsum passage, and going 
+                    through the cites of the word in classical literature, 
+                    discovered the undoubtable source. Lorem Ipsum comes from 
+                    sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et 
+                    Malorum" (The Extremes of Good and Evil) by Cicero, 
+                    written in 45 BC. This book is a treatise on the theory 
+                    of ethics, very popular during the Renaissance. The first 
+                    line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", 
+                    comes from a line in section 1.10.32.
+                </p>
+            </section> -->
+
+            <section id="produto" class="secao-produto">
+                <h2>Um Sabor para Cada Desejo</h2>
+                <p>Escolha o seu favorito e faça o pedido!</p>
+
+                <div class="container-cards-produto">
+                    <article class="cards-produto">
+                        <img src="./image/1.png" alt="Cafeteria" width="150"/>
+                        <div class="container-cards-produto-texto">
+                            <p class="cards-produto-categoria">Pães</p>
+                            <h3>Pão francês</h3>
+                            <p class="cards-produto-descricao">Quentinho e crocante, assado várias vezes ao dia.</p>
+                            <p class="preco">R$ 1,20 </p>
+                            <div class="container-card-btn">
+                                <a href="pedidos.html" class="card-btn">Pedir +</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="cards-produto">
+                        <img src="./image/2.png" alt="Cafeteria" width="150"/>
+                        <div class="container-cards-produto-texto">
+                            <p class="cards-produto-categoria">Pães</p>
+                            <h3>Pão de açúcar</h3>
+                            <p class="cards-produto-descricao">Quentinho e macio, com cobertura de açucar.</p>
+                            <p class="preco">R$ 1,20 </p>
+                            <div class="container-card-btn">
+                                <a href="pedidos.html" class="card-btn">Pedir +</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="cards-produto">
+                        <img src="./image/3.png" alt="Cafeteria" width="150"/>
+                        <div class="container-cards-produto-texto">
+                            <p class="cards-produto-categoria">Pães</p>
+                            <h3>Croissant</h3>
+                            <p class="cards-produto-descricao">Quentinho, crocante e recheado, assado várias vezes ao dia.</p>
+                            <p class="preco">R$ 1,20 </p>
+                            <div class="container-card-btn">
+                                <a href="pedidos.html" class="card-btn">Pedir +</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="cards-produto">
+                        <img src="./image/4.png" alt="Cafeteria" width="150"/>
+                        <div class="container-cards-produto-texto">
+                            <p class="cards-produto-categoria">Bolos</p>
+                            <h3>Bolo de chocolate</h3>
+                            <p class="cards-produto-descricao">Feito com chocolate de cacau, macio e perfeito para tomar com café.</p>
+                            <p class="preco">R$ 1,20 </p>
+                            
+                            <div class="container-card-btn">
+                                <a href="pedidos.html" class="card-btn">Pedir +</a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+
+            </section>
+
+
+            <section id="contato">
+                <h2>Localização e horário</h2>
+                <p>Venha nos visitar! Estamos na Rua das Flores, 123 - Centro.</p>
+
+                <iframe 
+                    src="https://www.google.com/maps?q=Dragão%mar,%Fortaleza,%Ceará&output=embed"
+                    title="Padaria do Sr. José"
+                    width="400"
+                    height="300"
+                    loading="lazy"
+                    >
+                </iframe>
+
+            </section>
+
+
+        </main>
+
+        <footer>
+            <a href="index.html">
+                <img 
+                class="logo"
+                src="./image/logo.jpg" 
+                alt="Logo da empresa" 
+                width="50" 
+                height="50"/>
+            </a>
             <ul>
-                <li> 🥬 Ingredientes frescos diários </li>
-                <li> 📜 Receitas tradicionais </li>
-                <li> 🤝 Atendimento personalizado </li>
+                <li> <a href="#produto">Produto</a> </li>
+                <li> <a href="contato.html">Contato</a> </li>
+                <li> <a href="feedback.html">Feedback</a> </li>
             </ul>
-        </section>
-        <section id="contato">
-            <h2>Onde Estamos</h2>
-            <p>Rua das Flores, 123 - Centro, Cidade Exemplo - Estado</p>
-            <p>Telefone: (11) 1234-5678</p>
+            <p>&copy; 2026 Padaria do Sr. José. Todos os direitos reservados. </p>
+        </footer>
 
-            <iframe src="https://www.google.com/maps?q=Padaria,%BelasArtes,%Taboão,&output=embed" 
-            title="Padaria do Sr. José"
-            width="400" height="300" loading="lazy" referrerpolicy="no-referrer-when-downgrade">   
+    </body>
 
-            </iframe>
-            <h3>Horário de funcionamento</h3>
-            <ul>
-                <li>Segunda a Sexta: 6h às 18h</li>
-                <li>Sábado: 6h às 12h</li>
-                <li>Domingo: 7h às 12h</li>
-            </ul>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; Padaria do Sr. José. Todos os direitos reservados  2024</p>
-    </footer>
-
-</body>
 </html>
+
+

@@ -1,0 +1,92 @@
+body{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    background-color: aliceblue;
+}
+
+/*
+tags;
+class="-";
+id = "#";
+*/
+
+.moldura{
+    background-color: chartreuse;
+    border: 2px dashed orange;
+    padding: 15px;
+    min-height: 120px;
+
+}
+
+.caixa{
+    background-color: aliceblue;
+    color: #7c2f2f;
+    padding: 18px;
+    border-radius: 8px;
+    font-weight: bold;
+    width: 120px;
+    text-align: center;
+    margin: 8px;
+}
+
+/* --- Relative --- */
+
+.moldura-rel{
+    position: relative;
+}
+
+.caixa-relativa{
+    background-color: aliceblue;
+    color: blueviolet;
+    position: relative;
+    bottom: 62px;
+    left: 160px;
+}
+
+.z-relativo{
+    z-index: 5;
+}
+/* --- Absoluto --- */
+
+.caixa-absoluto{
+    background-color: aliceblue;
+    color: gray;
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+.caixa-fixa{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    padding: 0;
+    line-height: 100px;
+    text-align: center;
+}
+
+/* z-index */
+
+.zcaixa{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    color: white;
+    padding: 12px;
+    font-weight: bold;
+}
+
+.z1{
+    background-color: blue;
+    top: 50px;
+    left: 30px;
+}
+
+.z2{
+    background-color: chocolate;
+    top: 50px;
+    left: 70px;
+    z-index: auto;
+}
+
